@@ -6,7 +6,7 @@ const Reservations = () => {
   return (
     <div className={styles.container}>
       <div className={styles.inner}>
-        {/* LEFT CONTAINER */}
+
         <div className={styles.leftContainer}>
           <div className={styles.description}>
             <div className={styles.title}>
@@ -20,7 +20,6 @@ const Reservations = () => {
           </div>
         </div>
 
-        {/* RIGHT CONTAINER */}
         <div className={styles.rightContainer}>
           <div className={styles.formContainer}>
             <form action="">
