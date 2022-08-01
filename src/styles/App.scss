@@ -13,14 +13,38 @@
     font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar-track {
+    background: var(--color-bg);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: var(--color-text);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-btn);
+}
+
 :root {
+    scrollbar-width: thin !important;
+    scrollbar-color: var(--color-text) var(--color-bg) !important;
     --color-bg: #2c2822;
-    --color-bin: #dfae67;
+    --color-btn: #dfae67;
     --color-text: #a9a7a5;
+}
+
+::-webkit-scrollbar {
+    width: 0.4em;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     background: var(--color-bg);
-    overflow: hidden;
+    // overflow: hidden;
     position: relative; 
 }

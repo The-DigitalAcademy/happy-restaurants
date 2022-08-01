@@ -1,11 +1,9 @@
-import React from "react";
 import styles from "../styles/Navbar.module.scss";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
-
   return (
     <nav className={styles.nav}>
       <div className={styles.logoContainer}>
@@ -17,9 +15,9 @@ const Navbar = () => {
       </div>
 
       <ul
-        className={`$ {navOpen ? styles menuMobileActive : undefined} ${
-              styles.menu
-              }`}
+        className={`${navOpen ? styles.menuMobileActive : undefined} ${
+          styles.menu
+        }`}
       >
         <li className={styles.mobileFaTimes} onClick={() => setNavOpen(false)}>
           <FaTimes />
