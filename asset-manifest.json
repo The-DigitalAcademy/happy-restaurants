@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/happy-restaurants/static/css/main.11c2b25c.css",
-    "main.js": "/happy-restaurants/static/js/main.d4dfbb3a.js",
+    "main.css": "/happy-restaurants/static/css/main.5248f323.css",
+    "main.js": "/happy-restaurants/static/js/main.aa634b6d.js",
     "static/media/bg1.jpg": "/happy-restaurants/static/media/bg1.853f2f9b790c15aed37e.jpg",
+    "static/media/eastern.svg": "/happy-restaurants/static/media/eastern.d4be5714a8ded0b1a2702d85ce581ad8.svg",
+    "static/media/bgfood.jpg": "/happy-restaurants/static/media/bgfood.10da9d7d84f90f4371e1.jpg",
+    "static/media/korean.svg": "/happy-restaurants/static/media/korean.e935a61acdd964a7603e9519ce3e1e4b.svg",
+    "static/media/restaurant.jpg": "/happy-restaurants/static/media/restaurant.f056cc774f73eaa536ff.jpg",
+    "static/media/western.svg": "/happy-restaurants/static/media/western.772f008d87d204177275d79e57979f45.svg",
     "static/media/eating.avif": "/happy-restaurants/static/media/eating.c0e1222ca7cf83f0a296.avif",
+    "static/media/japan.svg": "/happy-restaurants/static/media/japan.a1b4af1aa6089504df7cb88011730289.svg",
+    "static/media/logo2.svg": "/happy-restaurants/static/media/logo2.6860d4054415f0e2bcb201e7b1b05710.svg",
+    "static/media/logo4.svg": "/happy-restaurants/static/media/logo4.9163c0519ac8e66ccb99c1afb904daae.svg",
+    "static/media/logo3.svg": "/happy-restaurants/static/media/logo3.ffdbd3bdb59ca7350df95ff06752a2f8.svg",
+    "static/media/logo1.svg": "/happy-restaurants/static/media/logo1.d31f48c4f4d242a41d8c194c031427e3.svg",
     "index.html": "/happy-restaurants/index.html",
-    "main.11c2b25c.css.map": "/happy-restaurants/static/css/main.11c2b25c.css.map",
-    "main.d4dfbb3a.js.map": "/happy-restaurants/static/js/main.d4dfbb3a.js.map"
+    "main.5248f323.css.map": "/happy-restaurants/static/css/main.5248f323.css.map",
+    "main.aa634b6d.js.map": "/happy-restaurants/static/js/main.aa634b6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.11c2b25c.css",
-    "static/js/main.d4dfbb3a.js"
+    "static/css/main.5248f323.css",
+    "static/js/main.aa634b6d.js"
   ]
 }
