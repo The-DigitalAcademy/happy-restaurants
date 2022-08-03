@@ -24,7 +24,7 @@ const Specialitties = () => {
             <h1>Specialitties</h1>
             <h2>Our Special Cuisine</h2>
         </div>
-        <div className={styles.cards}>
+        <div className={styles.card}>
       <div className='styles.row1'>
           <FoodCard
             foodIcon={<Western />}
