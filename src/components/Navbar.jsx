@@ -29,6 +29,8 @@ const Navbar = () => {
         <li>More</li>
       </ul>
     </nav>
+
+    
   );
 };
 

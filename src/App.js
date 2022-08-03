@@ -9,6 +9,7 @@ import SpecialDishes from './components/SpecialDishes';
 import Reservations from './components/Reservations';
 import Footer from './components/Footer';
 
+
 const App = () => {
   return (
     <div className='App'>
