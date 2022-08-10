@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Brands from './components/Brands';
 import Specialitties from './components/Specialitties'
 import AboutUs from './components/AboutUs';
-import Facts from './components/Facts';
+// import Facts from './components/Facts';
 import SpecialDishes from './components/SpecialDishes';
 import Reservations from './components/Reservations';
 import Footer from './components/Footer';
@@ -17,7 +17,7 @@ const App = () => {
     <Brands />
     <Specialitties />
     <AboutUs />
-    <Facts />
+    {/* <Facts /> */}
     <SpecialDishes />
     <Reservations />
     <Footer />

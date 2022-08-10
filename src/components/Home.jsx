@@ -20,7 +20,7 @@ const Home = () => {
         </div>
 
         <div className={styles.slogan}>
-            <h1>{`Welcome To Restaurants`}</h1>
+            <h1>{`Welcome To Happy's In Restaurants`}</h1>
         
         </div>
     </div>
