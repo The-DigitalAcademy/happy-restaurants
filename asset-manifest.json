@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/happy-restaurants/static/css/main.cdfefa1d.css",
-    "main.js": "/happy-restaurants/static/js/main.8556b7c4.js",
+    "main.js": "/happy-restaurants/static/js/main.3bc0d856.js",
     "static/media/bg1.jpg": "/happy-restaurants/static/media/bg1.853f2f9b790c15aed37e.jpg",
     "static/media/eastern.svg": "/happy-restaurants/static/media/eastern.d4be5714a8ded0b1a2702d85ce581ad8.svg",
     "static/media/bgfood.jpg": "/happy-restaurants/static/media/bgfood.10da9d7d84f90f4371e1.jpg",
@@ -16,10 +16,10 @@
     "static/media/logo1.svg": "/happy-restaurants/static/media/logo1.d31f48c4f4d242a41d8c194c031427e3.svg",
     "index.html": "/happy-restaurants/index.html",
     "main.cdfefa1d.css.map": "/happy-restaurants/static/css/main.cdfefa1d.css.map",
-    "main.8556b7c4.js.map": "/happy-restaurants/static/js/main.8556b7c4.js.map"
+    "main.3bc0d856.js.map": "/happy-restaurants/static/js/main.3bc0d856.js.map"
   },
   "entrypoints": [
     "static/css/main.cdfefa1d.css",
-    "static/js/main.8556b7c4.js"
+    "static/js/main.3bc0d856.js"
   ]
 }
