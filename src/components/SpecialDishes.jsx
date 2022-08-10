@@ -17,58 +17,58 @@ const SpecialDishes = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h1>Special Dishes</h1>
-        <h2>Best Recommendation Menu</h2>
+        <h1>Special</h1>
+        <h2>Menu</h2>
       </div>
       <div className={styles.dishe}>
         <div className={styles.co11}>
           <Dishe
             name="Beef Burger"
             price="32"
-            description="Classic greek salad, barrel aged feta cheese"
+            description="Classic greek salad, cheese"
           />
 
           <Dishe
             name="Beef Burger"
             price="32"
-            description="Classic greek salad, barrel aged feta cheese"
+            description="Classic greek salad, cheese"
           />
 
           <Dishe
             name="Beef Burger"
             price="32"
-            description="Classic greek salad, barrel aged feta cheese"
+            description="Classic greek salad, cheese"
           />
 
           <Dishe
             name="Beef Burger"
             price="32"
-            description="Classic greek salad, barrel aged feta cheese"
+            description="Classic greek salad, cheese"
           />
         </div>
         <div className={styles.co12}>
           <Dishe
             name="Beef Burger"
             price="32"
-            description="Classic greek salad, barrel aged feta cheese"
+            description="Classic greek salad, cheese"
           />
 
           <Dishe
             name="Beef Burger"
             price="32"
-            description="Classic greek salad, barrel aged feta cheese"
+            description="Classic greek salad, cheese"
           />
 
           <Dishe
             name="Beef Burger"
             price="32"
-            description="Classic greek salad, barrel aged feta cheese"
+            description="Classic greek salad, cheese"
           />
 
           <Dishe
             name="Beef Burger"
             price="32"
-            description="Classic greek salad, barrel aged feta cheese"
+            description="Classic greek salad, cheese"
           />
         </div>
       </div>
