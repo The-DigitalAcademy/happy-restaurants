@@ -6,9 +6,9 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <nav className={styles.nav}>
-      <div className={styles.logoContainer}>
+      {/* <div className={styles.logoContainer}>
         <span className={styles.logo}>Welcome To Restaurants</span>
-      </div>
+      </div> */}
 
       <div className={styles.mobileBars} onClick={() => setNavOpen(true)}>
         <FaBars />

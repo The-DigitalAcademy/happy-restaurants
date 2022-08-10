@@ -1,6 +1,5 @@
 import styles from '../styles/Home.module.scss';
 import Navbar from '../components/Navbar';
-import { BsArrowRight } from 'react-icons/bs';
 import eating from '../assets/eating.avif';
 
 const Home = () => {
@@ -21,16 +20,8 @@ const Home = () => {
         </div>
 
         <div className={styles.slogan}>
-            <h1>{`Feel The Autenthic & Original Taste From Us`}</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident non quisquam itaque repudiandae earum rem facilis? Nobis, aspernatur. Ipsam voluptates quaerat nostrum laborum esse ducimus beatae autem eligendi perferendis?
-            </p>
+            <h1>{`Welcome To Restaurants`}</h1>
         
-
-        <button className={styles.btn}>
-          <span>See More</span>
-          <BsArrowRight />
-        </button>
         </div>
     </div>
   );
