@@ -8,7 +8,7 @@ const Footer = () => {
             <div className={styles.logoContainer}>
                 <span className={styles.logo}>Food</span>
                 <span className={styles.copyright}>
-                <p>&#169; copyright Food. All rights reserved</p>
+                <p>&#169; copyright Food. Happy Legoale</p>
                 </span>
             </div>
             <ul>
