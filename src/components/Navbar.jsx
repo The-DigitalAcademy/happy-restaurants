@@ -6,9 +6,6 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <nav className={styles.nav}>
-      {/* <div className={styles.logoContainer}>
-        <span className={styles.logo}>Welcome To Restaurants</span>
-      </div> */}
 
       <div className={styles.mobileBars} onClick={() => setNavOpen(true)}>
         <FaBars />
@@ -23,10 +20,9 @@ const Navbar = () => {
           <FaTimes />
         </li>
         <li>Home</li>
-        <li>Our Menu</li>
-        <li>Reservation</li>
-        <li>News</li>
-        <li>More</li>
+        <li>Our Special</li>
+        <li>About Us</li>
+        <li>Menu</li>
       </ul>
     </nav>
 
