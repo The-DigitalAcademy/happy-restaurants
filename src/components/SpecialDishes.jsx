@@ -29,46 +29,34 @@ const SpecialDishes = () => {
           />
 
           <Dishe
-            name="Beef Burger"
-            price="32"
-            description="Classic greek salad, cheese"
+            name="Chicken"
+            price="65"
+            description="Pap with salad"
           />
 
           <Dishe
-            name="Beef Burger"
-            price="32"
-            description="Classic greek salad, cheese"
+            name="Steak"
+            price="55"
+            description="Pap and wors with salad"
           />
 
           <Dishe
-            name="Beef Burger"
-            price="32"
-            description="Classic greek salad, cheese"
+            name="Rib burger"
+            price="72"
+            description="Tomato, onion, cheese and chips"
           />
         </div>
         <div className={styles.co12}>
           <Dishe
-            name="Beef Burger"
-            price="32"
-            description="Classic greek salad, cheese"
+            name="Chicken burger"
+            price="50"
+            description="Tomato, onion, cheese and chips"
           />
 
           <Dishe
-            name="Beef Burger"
-            price="32"
-            description="Classic greek salad, cheese"
-          />
-
-          <Dishe
-            name="Beef Burger"
-            price="32"
-            description="Classic greek salad, cheese"
-          />
-
-          <Dishe
-            name="Beef Burger"
-            price="32"
-            description="Classic greek salad, cheese"
+            name="Pork"
+            price="45"
+            description="Pap and salad"
           />
         </div>
       </div>
