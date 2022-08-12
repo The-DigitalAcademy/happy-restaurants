@@ -12,13 +12,12 @@ const AboutUs = () => {
         <img src={restaurant} alt="restaurant" />
         <div className={styles.aboutUs}>
           <h2>About Us</h2>
-          <h3>You’re in the business of making people happy.</h3>
+          <h3>I am in the business of making people happy.</h3>
           <p>
 
-Whether that comes as a delicious meal, it’s 2022, good times. 
-But if you’re not sure how to sell those good times, I’m here to help.  
-I’m <h1>Happy Legoale</h1>, and Eat, Drink, and Write Copy is how I help busy hospitality visitors and increased sales in a super competitive market.
-You bring the celebration; I bring the communication. 
+Whether that comes as a delicious meal, it’s 2022, good times.  
+ <h1>I’m Happy Legoale</h1> and Eat, Drink, and Write Copy is how I help busy hospitality visitors and increased sales in a super competitive market.
+You bring the celebration. 
           </p>
         </div>
       </div>
