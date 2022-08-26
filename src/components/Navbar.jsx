@@ -19,10 +19,18 @@ const Navbar = () => {
         <li className={styles.mobileFaTimes} onClick={() => setNavOpen(false)}>
           <FaTimes />
         </li>
-        <li>Home</li>
-        <li>Our Special</li>
-        <li>About Us</li>
-        <li>Menu</li>
+        <li>
+        <a href="#home" role="button">Home</a>
+        </li>
+        <li>
+          <a href="#our special" role="button">Our Special</a>
+        </li>
+        <li>
+          <a href="#About Us" role="button">About Us</a>
+        </li>
+        <li>
+          <a href="#Menu" role="button">Menu</a>
+        </li>
       </ul>
     </nav>
 

@@ -22,22 +22,21 @@ const Specialitties = () => {
         <div className={styles.title}>
             <h1>Specialitties</h1>
             <h2>Our Special</h2>
-        </div>
+        
         <div className={styles.card}>
       <div className='styles.row1'>
           <FoodCard
             foodIcon={<Western />}
             ctg="Western Food"
-            description="Fried Rice, served with prawn sambal, fried chicken and egg together."
+            description="Fried Rice, chicken and egg together."
           />
+          </div>
           <FoodCard
             foodIcon={<Eastern />}
             ctg="Eastern Food"
             description="Chicken, salad with fried rice"
           />
       </div>
-
-
       </div>
     </div>
   )
