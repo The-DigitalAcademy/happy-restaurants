@@ -3,21 +3,15 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
 const Navbar = () => {
-  const Home = useState(null);
-  const OurSpecial = useState(null);
-  const AboutUs = useState(null);
-  const Menu = useState(null);
   const [navOpen, setNavOpen] = useState(false);
 
-  const scrollToSection = (elementState) => {
-    window.scrollTo({
-      top: elementState.current.offsetTop,
-      behavior: 'smooth'
-    })
-  }
+  const goTo = (id) => {
+    const element = document.getElementById(id);
+    element.scrollIntoView();
+  };
+
   return (
     <nav className={styles.nav}>
-
       <div className={styles.mobileBars} onClick={() => setNavOpen(true)}>
         <FaBars />
       </div>
@@ -30,14 +24,20 @@ const Navbar = () => {
         <li className={styles.mobileFaTimes} onClick={() => setNavOpen(false)}>
           <FaTimes />
         </li>
-        <li className="link">Home</li>
-        <li className="link">Our Special</li>
-        <li className="link">About Us</li>
-        <li className="link">Menu</li>
+        <li className="link" onClick={() => goTo("home")}>
+          Home
+        </li>
+        <li className="link" onClick={() => goTo("OurSpecial")}>
+          Our Special
+        </li>
+        <li className="link" onClick={() => goTo("AboutUs")}>
+          About Us
+        </li>
+        <li className="link" onClick={() => goTo("menu")}>
+          Menu
+        </li>
       </ul>
     </nav>
-
-    
   );
 };
 

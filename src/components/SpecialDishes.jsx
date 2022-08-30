@@ -15,7 +15,7 @@ const Dishe = ({ name, price, description }) => {
 
 const SpecialDishes = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="menu">
       <div className={styles.title}>
         <h1>Special</h1>
         <h2>Menu</h2>

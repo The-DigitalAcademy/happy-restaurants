@@ -1,12 +1,12 @@
 import styles from "../styles/AboutUs.module.scss";
-import bg1 from "../assets/bg1.jpg";
+// import bg1 from "../assets/bg1.jpg";
 import restaurant from "../assets/restaurant.jpg";
 
 const AboutUs = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="AboutUs">
       <div className={styles.bg1}>
-        <img src={bg1} alt="bg1" />
+        {/* <img src={bg1} alt="bg1" /> */}
       </div>
       <div className={styles.restaurant}>
         <img src={restaurant} alt="restaurant" />
