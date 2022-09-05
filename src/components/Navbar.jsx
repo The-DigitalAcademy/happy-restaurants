@@ -36,6 +36,9 @@ function Navbar () {
         <li className="link" onClick={() => goTo("menu")}>
           Menu
         </li>
+        <li className="link" onClick={() => goTo("footer")}>
+          Footer
+        </li>
       </ul>
     </nav>
   );
