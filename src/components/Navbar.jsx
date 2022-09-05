@@ -2,26 +2,26 @@ import styles from "../styles/Navbar.module.scss";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
-const Navbar = () => {
-  const [navOpen, setNavOpen] = useState(false);
+function Navbar () {
+  const [nav, open] = useState();
 
-  const goTo = (id) => {
+  function goTo (id) {
     const element = document.getElementById(id);
     element.scrollIntoView();
   };
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.mobileBars} onClick={() => setNavOpen(true)}>
+      <div className={styles.mobileBars} onClick={() => open(true)}>
         <FaBars />
       </div>
 
       <ul
-        className={`${navOpen ? styles.menuMobileActive : undefined} ${
+        className={`${nav ? styles.menuMobileActive : undefined} ${
           styles.menu
         }`}
       >
-        <li className={styles.mobileFaTimes} onClick={() => setNavOpen(false)}>
+        <li className={styles.mobileFaTimes} onClick={() => open(false)}>
           <FaTimes />
         </li>
         <li className="link" onClick={() => goTo("home")}>
