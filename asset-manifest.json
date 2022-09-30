@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/happy-restaurants/static/css/main.aa834642.css",
-    "main.js": "/happy-restaurants/static/js/main.e8e06ed8.js",
+    "main.css": "/happy-restaurants/static/css/main.f7ea2e85.css",
+    "main.js": "/happy-restaurants/static/js/main.7147b4b2.js",
     "static/media/eastern.svg": "/happy-restaurants/static/media/eastern.d4be5714a8ded0b1a2702d85ce581ad8.svg",
     "static/media/restaurant.jpg": "/happy-restaurants/static/media/restaurant.f056cc774f73eaa536ff.jpg",
     "static/media/western.svg": "/happy-restaurants/static/media/western.ea6187c6007d626e71d05464cf2dac0f.svg",
     "static/media/restaurant food.avif": "/happy-restaurants/static/media/restaurant food.b1550ce082ab05f8f811.avif",
     "static/media/logo4.svg": "/happy-restaurants/static/media/logo4.9163c0519ac8e66ccb99c1afb904daae.svg",
     "index.html": "/happy-restaurants/index.html",
-    "main.aa834642.css.map": "/happy-restaurants/static/css/main.aa834642.css.map",
-    "main.e8e06ed8.js.map": "/happy-restaurants/static/js/main.e8e06ed8.js.map"
+    "main.f7ea2e85.css.map": "/happy-restaurants/static/css/main.f7ea2e85.css.map",
+    "main.7147b4b2.js.map": "/happy-restaurants/static/js/main.7147b4b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa834642.css",
-    "static/js/main.e8e06ed8.js"
+    "static/css/main.f7ea2e85.css",
+    "static/js/main.7147b4b2.js"
   ]
 }
