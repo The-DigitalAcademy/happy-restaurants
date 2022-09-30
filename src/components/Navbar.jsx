@@ -1,6 +1,8 @@
 import styles from "../styles/Navbar.module.scss";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+import '../styles/App.scss';
+
 
 function Navbar () {
   const [nav, open] = useState();
@@ -36,11 +38,15 @@ function Navbar () {
         <li className="link" onClick={() => goTo("menu")}>
           Menu
         </li>
-        <li className="link" onClick={() => goTo("footer")}>
-          Footer
+        <li className="link" onClick={() => goTo("")}>
+        <span className="fa-stack fa-2x has-badge" data-count="5">
+            <i className="fa fa-stack-2x fa-inverse"></i>
+            <i className="fa fa-shopping-cart fa-stack-2x red-cart"></i>
+        </span>
         </li>
       </ul>
     </nav>
+
   );
 };
 
